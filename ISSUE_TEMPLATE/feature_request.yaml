@@ -1,0 +1,42 @@
+name: "Feature request"
+description: "Suggest an idea for this project"
+labels: Enhancement
+body:
+  - type: markdown
+    id: introduction
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: world
+    attributes:
+      label: What would is your feature for?
+      options:
+        - "Resync v3"
+        - "Casino"
+        - "Club"
+        - "After Dark"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "What is your feature you would like added?"
+      description: "A clear and concise description of what the problem is."
+      placeholder: "Explain your feature here."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Relevant issues"
+      description: "Have you found any issues relating to your feature here? If so tag them."
+  - type: textarea
+    attributes:
+      label: "Describe Your feature here."
+      description: "A clear and concise description of what you want your feature to be."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Additional context"
+      description: "Add any other context about the problem here."
