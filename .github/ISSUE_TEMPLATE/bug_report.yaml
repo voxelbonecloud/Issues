@@ -18,7 +18,7 @@ body:
     id: relevant-issues
     attributes:
       label: Relevant issues
-      description: Did you find any existing issues relevant to this one? If you found the same issue, please contribute to that one instead of making a duplicate.?
+      description: Did you find any existing issues relevant to this one? If you found the same issue, please contribute to that one instead of making a duplicate.
     validations:
       required: true
   - type: textarea
@@ -28,20 +28,6 @@ body:
       description: Steps to reproduce the behavior.
     validations:
       required: true
-  - type: textarea
-    id: expected-behavior
-    attributes:
-      label: Expected behavior
-      description: A clear and concise description of what you expected to happen.
-    validations:
-      required: true
-  - type: textarea
-    id: log-files
-    attributes:
-      label: Log Files
-      description: Include log files from affected session or information on where to obtain them (e.g. sent over Discord). DO NOT extract only parts of the logs, please always include whole log files as they contain important context.
-    validations:
-      required: false
   - type: textarea
     id: screenshots
     attributes:
@@ -58,15 +44,6 @@ body:
         - "Always"
         - "Only Once"
         - "All the time"
-    validations:
-      required: true
-  - type: dropdown
-    id: repetition
-    attributes:
-      label: Does the bug persist after restarting Neos?
-      options:
-        - "No"
-        - "Yes"
     validations:
       required: true
   - type: dropdown
