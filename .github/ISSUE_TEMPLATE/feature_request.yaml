@@ -1,12 +1,13 @@
 name: "Feature request"
 description: "Suggest an idea for this project"
+title: "[Feature]: "
 labels: Enhancement
 body:
   - type: markdown
     id: introduction
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this feature report!
   - type: dropdown
     id: world
     attributes:
