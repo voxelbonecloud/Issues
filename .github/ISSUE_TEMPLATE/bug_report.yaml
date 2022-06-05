@@ -8,6 +8,15 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: world
+    attributes:
+      label: What would is your bug for?
+      options:
+        - "Resync v3"
+        - "Casino"
+        - "Club"
+        - "After Dark"
   - type: textarea
     id: what-happened
     attributes:
